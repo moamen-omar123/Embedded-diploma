@@ -24,4 +24,5 @@ int main(){
 	fflush(stdout);
 	printf("After swapping, value of b = %f\n",b);
 	fflush(stdout);
+	return 0;
 }

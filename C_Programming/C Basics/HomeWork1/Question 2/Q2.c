@@ -7,16 +7,16 @@
 #include <stdio.h>
 
 int main() {
-    char x;
+    int x;
     fflush(stdin);
     fflush(stdout);
-    printf("Enter a character: \n");
+    printf("Enter an integer: \n");
     fflush(stdin);
     fflush(stdout);
-    scanf(" %c", &x);
+    scanf(" %d", &x);
     fflush(stdin);
     fflush(stdout);
-    printf("You entered %c\n", x);
+    printf("You entered %d\n", x);
     return 0;
 }
 
